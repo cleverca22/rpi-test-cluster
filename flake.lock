@@ -1,0 +1,44 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1691654369,
+        "narHash": "sha256-gSILTEx1jRaJjwZxRlnu3ZwMn1FVNk80qlwiCX8kmpo=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "ce5e4a6ef2e59d89a971bc434ca8ca222b9c7f5e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "rpi-open-firmware": "rpi-open-firmware"
+      }
+    },
+    "rpi-open-firmware": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1692578945,
+        "narHash": "sha256-uuWPbIVRAVADL4O3USZ0cI2lmNkEu9hUMLDwt2WWEJM=",
+        "owner": "librerpi",
+        "repo": "rpi-open-firmware",
+        "rev": "52e4cad5ba6b49032f89cdafe124efba00bd6d97",
+        "type": "github"
+      },
+      "original": {
+        "owner": "librerpi",
+        "repo": "rpi-open-firmware",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
