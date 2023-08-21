@@ -23,8 +23,6 @@ inputs: { pkgs, lib, ... }:
     dtc
   ];
   nixpkgs = {
-    crossSystem.system = "aarch64-linux";
-    #system = "aarch64-linux";
     overlays = [
       # https://github.com/Jovian-Experiments/Jovian-NixOS/blob/development/modules/workarounds.nix
       (self: super: {
